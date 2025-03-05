@@ -16,15 +16,36 @@
             color:slateblue;
             background-color: lightgray;
             margin: 5px;
+            font-family: sans-serif;
+            border: solid 1px;
+            border-radius: 3px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .active{
+            background-color: lightsalmon;
+            color: black;
+        }
+        .user-card:hover{
+            box-shadow: 0 0 5px;
+        }
+        .user-card h2{
+            text-align: center;
+
+        }
+        .user-card p {
+            font-style: italic;
+
         }
     </style>
 </head>
 <body>
     <h1>A bekezdés</h1>
     <div class="user-card">
-        <p>User Card</p>
+        <h2>User Card</h2>
+        <p>Name: Jack</p>
     </div>
-    <div class="user-card">
+    <div class="user-card active">
         <p>User Card</p>
     </div>
     <div class="user-card">
